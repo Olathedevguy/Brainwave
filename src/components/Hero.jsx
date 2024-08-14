@@ -13,7 +13,7 @@ const Hero = () => {
   const parallaxRef = useRef(null);
   return (
     <Section
-      className="pt-[12rem] -mt-[5.25rem]"
+      className="pt-[12rem] -mt-[5.25]"
       crosses
       crossesOffset="lg:translate-y-[5.25rem]"
       customPaddings
@@ -41,7 +41,7 @@ const Hero = () => {
             Get Started
           </Button>
         </div>
-        <div className="relative mx-w-[23rem] mx-auto md:max-w-5xl xl:mb-22">
+        <div className="relative mx-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
             <div className="relative bg-n-8 rounded-[1rem]">
               <div className="h-[1.4rem] bg-n-10 rounded-t-[0.9rem]" />
